@@ -6,20 +6,23 @@ using namespace std; // this line of code will keep the namespace as std for in/
 int main() {
     // printf("hello world\n");
     // std::cout << "Hello World!\n";
-    cout << "Hello World!\n";
-    cout << "Hello my name is Hung and I am " << 32 << " years old.\n";
+    // cout << "Hello World!\n";
+    // cout << "Hello my name is Hung and I am " << 32 << " years old.\n";
 
     /*string input;
     cout << "Please enter your name: ";
     cin >> input;
     cout << input;*/
 
-    string name, age;
+    // string name, age;
     // cout << "Please enter a name: ";
-    printf("Please enter your name: ");
-    cin >> name;
+    // printf("Please enter your name: ");
+    // cin >> name;
     // cout << "Please enter an age: ";
-    printf("Please enter your age: ");
-    cin >> age;
-    cout << "Hi my name is " << name << " and I am " << age << " years old.";
+    // printf("Please enter your age: ");
+    // cin >> age;
+    // cout << "Hi my name is " << name << " and I am " << age << " years old.";
+
+    bool isCoding = true;
+    cout << "Am I coding? " << isCoding;
 }
