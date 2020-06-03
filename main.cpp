@@ -3,7 +3,8 @@
 
 using namespace std; // this line of code will keep the namespace as std for in/outputs
 
-int main() {
+int main()
+{
     // printf("hello world\n");
     // std::cout << "Hello World!\n";
     // cout << "Hello World!\n";
@@ -23,6 +24,18 @@ int main() {
     // cin >> age;
     // cout << "Hi my name is " << name << " and I am " << age << " years old.";
 
-    bool isCoding = true;
-    cout << "Am I coding? " << isCoding;
+    // bool isCoding = true;
+    // cout << "Am I coding? " << isCoding;
+
+    // program to calculate the temperature from F -> C
+    double tempf;
+    double tempc;
+
+    // Ask the user
+    std::cout << "Enter the temperature in Fahrenheit.";
+    std::cin >> tempf;
+
+    tempc = (tempf - 32) / 1.8;
+
+    std::cout << "The temp is " << tempc << " degrees Celsius.\n";
 }
