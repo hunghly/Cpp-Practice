@@ -100,11 +100,70 @@ int main()
 
     cout << "US Dollars = $" << dollars << "\n"; */
 
+    /*
+    * Variable Test
     std::string message = "Game Over";
     cout << message;
 
-    const double number = 5;
+    const double ssn = 556555111;
+
+    double five = 5.5532;
+    int convertedDouble = (int) five;
+
+    cout << convertedDouble;*/
+
+    /*
+    * Conditionals
+    *   double ph = 4.6;
+  
+    // Write the if, else if, else here:
     
+    if (ph > 7) {
+        std::cout << "Basic\n";
+    } else if (ph < 7) {
+        std::cout << "Acidic\n";
+    }
+    else {
+        std::cout << "Neutral\n";
+    }
+    
+    
+      int number = 9;
+  
+  switch(number) {
+    
+    case 1 :
+      std::cout << "Bulbusaur\n";
+      break;
+    case 2 :
+      std::cout << "Ivysaur\n";
+      break;
+    case 3 :
+      std::cout << "Venusaur\n";
+      break;
+    case 4 :
+      std::cout << "Charmander\n";
+      break;
+    case 5 :
+      std::cout << "Charmeleon\n";
+      break;
+    case 6 :
+      std::cout << "Charizard\n";
+      break;
+    case 7 :
+      std::cout << "Squirtle\n";
+      break;
+    case 8 :
+      std::cout << "Wartortle\n";
+      break;
+    case 9 :
+      std::cout << "Blastoise\n";
+      break;
+    default :
+      std::cout << "Unknown\n";
+      break;
+    */
+
 
 }
 
