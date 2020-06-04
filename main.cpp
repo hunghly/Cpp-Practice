@@ -192,6 +192,36 @@ int main()
     }
     */
 
+    /*
+   *
+   * Leap Year calculator
+   * int year;
+  int yearSize;
+
+  std::cout << "Enter the year\n";
+  std::cin >> year;
+
+
+  yearSize = std::to_string(year).size();
+
+  if (yearSize == 4) {
+    if (year % 4 == 0) {
+       if ((year % 100 == 0) && (year % 400 != 0)) {
+         std::cout << "Not a leap year\n";
+       }
+       else if (year % 400 == 0) {
+        std::cout << "It is a leap year\n";
+      }
+      else {
+        std::cout << "It is a leap year\n";
+      }
+    } else {
+        std::cout << "Not a leap year\n";
+    }
+  }
+  */
+ 
+
 
 }
 
