@@ -78,6 +78,34 @@ int main()
     std::cout << "Root 1 is " << root1 << "\n";
     std::cout << "Root 2 is " << root2 << "\n";
     */
+
+    /*
+    *Calculating exchange rate
+    double pesos;
+    double reais;
+    double soles;
+
+    double dollars;
+
+    cout << "Enter number of Colombian Pesos: \n";
+    cin >> pesos;
+
+    cout << "Enter the number of Brazilian Reais: \n";
+    cin >> reais;
+
+    cout << "Enter the number of Peruvian Soles: \n";
+    cin >> soles;
+
+    dollars = (.046 * pesos) + (.2 * reais) + (.3 * soles);
+
+    cout << "US Dollars = $" << dollars << "\n"; */
+
+    std::string message = "Game Over";
+    cout << message;
+
+    const double number = 5;
+    
+
 }
 
 int dogYears()
