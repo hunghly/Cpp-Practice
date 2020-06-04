@@ -28,14 +28,34 @@ int main()
     // cout << "Am I coding? " << isCoding;
 
     // program to calculate the temperature from F -> C
-    double tempf;
-    double tempc;
+    // double tempf;
+    // double tempc;
 
-    // Ask the user
-    std::cout << "Enter the temperature in Fahrenheit.";
-    std::cin >> tempf;
+    // // Ask the user
+    // std::cout << "Enter the temperature in Fahrenheit.";
+    // std::cin >> tempf;
 
-    tempc = (tempf - 32) / 1.8;
+    // tempc = (tempf - 32) / 1.8;
 
-    std::cout << "The temp is " << tempc << " degrees Celsius.\n";
+    // std::cout << "The temp is " << tempc << " degrees Celsius.\n";
+
+    /*
+    * Dog - Human year calculator
+    int dog_age = 4;
+    int early_years = 21;
+    int later_years;
+    int human_years;
+
+    later_years = (dog_age - 2) * 4;
+
+    human_years = early_years + later_years;
+
+    std::cout << "My name is Arya. Ruff ruff, I am " << human_years << " years old in human years.\n";
+    */
+}
+
+int dogYears()
+{
+    std::cout << "woof";
+    return 0;
 }
