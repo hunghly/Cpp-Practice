@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <iostream>
+#include <cstdlib>
 
 using namespace std; // this line of code will keep the namespace as std for in/outputs
 
@@ -220,9 +221,49 @@ int main()
     }
   }
   */
- 
 
+    /*
+    cout << "MAGIC 8-BALL GAME\n";
+    srandom(time(NULL));
 
+    int answer = std::rand() % 10;
+
+    cout << "Answer is: " << answer << "\n";
+
+    switch (answer) {
+        case 0:
+        cout << "It is very certain\n";
+        break;
+        case 1:
+        cout << "It is decidedly so\n";
+        break;
+        case 2:
+        cout << "Without a doubt\n";
+        break;
+        case 3:
+        cout << "Yes - definitely\n";
+        break;
+        case 4:
+        cout << "You may rely on it\n";
+        break;
+        case 5:
+        cout << "Don't count on it\n";
+        break;
+        case 6:
+        cout << "My reply is no\n";
+        break;
+        case 7:
+        cout << "My sources say no\n";
+        break;
+        case 8:
+        cout << "Signs point to yes\n";
+        break;
+        case 9:
+        cout << "Very doubtful\n";
+        break;
+    }
+    */
+   
 }
 
 int dogYears()
