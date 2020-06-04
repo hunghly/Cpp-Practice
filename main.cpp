@@ -162,6 +162,34 @@ int main()
     default :
       std::cout << "Unknown\n";
       break;
+    
+    
+    double weight;
+    int planet;
+
+    std::cout << "Please enter Mac's weight as an int.\n";
+    std::cin >> weight;
+
+    std::cout << "Enter the planet number (1 - 5) you are fighting on\n";
+    std::cin >> planet;
+
+    switch (planet) {
+        case 1:
+        std::cout << "Venus: " << weight * .78 << "!\n";
+        break;
+        case 2:
+        std::cout << "Mars: " << weight * .39 << "!\n";
+        break;
+        case 3:
+        std::cout << "Jupiter: " << weight * 2.65 << "!\n";
+        break;
+        case 4:
+        std::cout << "Saturn: " << weight * 1.17 << "!\n";
+        break;
+        case 5:
+        std::cout << "Uranus: " << weight * 1.05 << "!\n";
+        break;
+    }
     */
 
 
