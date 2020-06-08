@@ -388,6 +388,56 @@ int main()
 
     std::cout << house << "!\n";
   */
+
+  /*
+  // rock paper scissors game
+
+    std::srand(time(NULL));
+    int computer = std::rand() % 3 + 1;
+    int user = 0;
+
+    std::cout << "====================\n";
+    std::cout << "rock paper scissors!\n";
+    std::cout << "====================\n";
+
+    std::cout << "1) ✊\n";
+    std::cout << "2) ✋\n";
+    std::cout << "3) ✌️\n";
+
+    std::cout << "shoot! ";
+    std::cin >> user;
+
+    std::string computerChoice;
+    switch (computer) {
+      case 1:
+        computerChoice = "Rock";
+        break;
+      case 2:
+        computerChoice = "Paper";
+        break;
+      case 3:
+        computerChoice = "Scissor";
+        break;
+      default:
+      return 1;
+    }
+    std::cout << "Computer chose: " << computerChoice << "!\n";
+
+    if (computer == user) {
+      std::cout << "Draw!";
+    }
+    // Win conditions 
+    else if (
+      (user == 1 && computer == 3) ||
+      (user == 2 && computer == 1) ||
+      (user == 3 && computer == 2)
+      ) {
+        std::cout << "You win!\n";
+    }
+    else {
+      std::cout << "You lose!\n";
+    }
+  */
 }
 
 int dogYears()
