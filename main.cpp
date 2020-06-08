@@ -6,41 +6,41 @@ using namespace std; // this line of code will keep the namespace as std for in/
 
 int main()
 {
-    // printf("hello world\n");
-    // std::cout << "Hello World!\n";
-    // cout << "Hello World!\n";
-    // cout << "Hello my name is Hung and I am " << 32 << " years old.\n";
+  // printf("hello world\n");
+  // std::cout << "Hello World!\n";
+  // cout << "Hello World!\n";
+  // cout << "Hello my name is Hung and I am " << 32 << " years old.\n";
 
-    /*string input;
+  /*string input;
     cout << "Please enter your name: ";
     cin >> input;
     cout << input;*/
 
-    // string name, age;
-    // cout << "Please enter a name: ";
-    // printf("Please enter your name: ");
-    // cin >> name;
-    // cout << "Please enter an age: ";
-    // printf("Please enter your age: ");
-    // cin >> age;
-    // cout << "Hi my name is " << name << " and I am " << age << " years old.";
+  // string name, age;
+  // cout << "Please enter a name: ";
+  // printf("Please enter your name: ");
+  // cin >> name;
+  // cout << "Please enter an age: ";
+  // printf("Please enter your age: ");
+  // cin >> age;
+  // cout << "Hi my name is " << name << " and I am " << age << " years old.";
 
-    // bool isCoding = true;
-    // cout << "Am I coding? " << isCoding;
+  // bool isCoding = true;
+  // cout << "Am I coding? " << isCoding;
 
-    // program to calculate the temperature from F -> C
-    // double tempf;
-    // double tempc;
+  // program to calculate the temperature from F -> C
+  // double tempf;
+  // double tempc;
 
-    // // Ask the user
-    // std::cout << "Enter the temperature in Fahrenheit.";
-    // std::cin >> tempf;
+  // // Ask the user
+  // std::cout << "Enter the temperature in Fahrenheit.";
+  // std::cin >> tempf;
 
-    // tempc = (tempf - 32) / 1.8;
+  // tempc = (tempf - 32) / 1.8;
 
-    // std::cout << "The temp is " << tempc << " degrees Celsius.\n";
+  // std::cout << "The temp is " << tempc << " degrees Celsius.\n";
 
-    /*
+  /*
     * Dog - Human year calculator
     int dog_age = 4;
     int early_years = 21;
@@ -54,7 +54,7 @@ int main()
     std::cout << "My name is Arya. Ruff ruff, I am " << human_years << " years old in human years.\n";
     */
 
-    /*
+  /*
     * Quadratic calcuation
     double a;
     double b;
@@ -80,7 +80,7 @@ int main()
     std::cout << "Root 2 is " << root2 << "\n";
     */
 
-    /*
+  /*
     *Calculating exchange rate
     double pesos;
     double reais;
@@ -101,7 +101,7 @@ int main()
 
     cout << "US Dollars = $" << dollars << "\n"; */
 
-    /*
+  /*
     * Variable Test
     std::string message = "Game Over";
     cout << message;
@@ -113,7 +113,7 @@ int main()
 
     cout << convertedDouble;*/
 
-    /*
+  /*
     * Conditionals
     *   double ph = 4.6;
   
@@ -193,7 +193,7 @@ int main()
     }
     */
 
-    /*
+  /*
    *
    * Leap Year calculator
    * int year;
@@ -222,7 +222,7 @@ int main()
   }
   */
 
-    /*
+  /*
     cout << "MAGIC 8-BALL GAME\n";
     srandom(time(NULL));
 
@@ -263,11 +263,135 @@ int main()
         break;
     }
     */
-   
+
+  /*
+  // The magic starts here
+    int gryffindor = 0;
+    int hufflepuff = 0;
+    int ravenclaw = 0;
+    int slytherin = 0;
+
+    int answer1;
+    int answer2;
+    int answer3;
+    int answer4;
+
+    std::cout << "The Sorting Hat Quiz!\n";
+    std::cout << "Q1) When I'm dead, I want people to remember me as: \n";
+    std::cout << "1) The Good \n";
+    std::cout << "2) The Great \n";
+    std::cout << "3) The Wise \n";
+    std::cout << "4) The Bold \n";
+    std::cout << "Your choice: ";
+    std::cin >> answer1;
+
+    switch (answer1) {
+      case 1:
+        hufflepuff++;
+        break;
+      case 2:
+        slytherin++;
+        break;
+      case 3:
+        ravenclaw++;
+        break;
+      case 4:
+        gryffindor++;
+        break;
+      default:
+        std::cout << "Invalid Input\n";
+        break;
+    }
+
+    std::cout << "Q2) Dawn or Dusk?\n1) Dawn\n2) Dusk\n";
+    std::cout << "Your choice: ";
+    std::cin >> answer2;
+
+    switch (answer2) {
+      case 1:
+        gryffindor++;
+        ravenclaw++;
+        break;
+      case 2:
+        hufflepuff++;
+        slytherin++;
+        break;
+      default:
+        std::cout << "Invalid Input\n";
+    }
+
+    std::cout << "Q3) Which kind of instrument most pleases your ear?\n";
+    std::cout << "1) The violin\n2) The trumpet\n3) The piano\n4) The drum\n";
+    std::cout << "Your choice: ";
+    std::cin >> answer3;
+
+    switch (answer3) {
+      case 1:
+        slytherin++;
+        break;
+      case 2:
+        hufflepuff++;
+        break;
+      case 3:
+        ravenclaw++;
+        break;
+      case 4:
+        gryffindor++;
+        break;
+      default:
+        std::cout << "Invalid Input\n";
+    } 
+
+    std::cout << "Q4) Which road tempts you most?\n1) The wide, sunny grassy lane\n2) The narrow, dark, lantern-lit alley\n3) The twisting, leaf-strewn path through woods\n4) The cobbled street lined (ancient buildings)\n";
+    std::cout << "Your choice: ";
+    std::cin >> answer4;
+
+    switch (answer4) {
+      case 1:
+        hufflepuff++;
+        break;
+      case 2:
+        slytherin++;
+        break;
+      case 3:
+        gryffindor++;
+        break;
+      case 4:
+        ravenclaw++;
+        break;
+      default:
+        std::cout << "Invalid Input\n";
+    }
+
+    int max = 0;
+
+    std::string house;
+
+    if (gryffindor > max) {
+      max = gryffindor;
+      house = "Gryffindor";
+
+    }
+    if (hufflepuff > max) {
+      max = hufflepuff;
+      house = "Hufflepuff";
+    }
+    if (ravenclaw > max) {
+      max = ravenclaw;
+      house = "Ravenclaw";
+    }
+    if (slytherin > max) {
+
+      max = slytherin;
+      house = "Slytherin";
+    }
+
+    std::cout << house << "!\n";
+  */
 }
 
 int dogYears()
 {
-    std::cout << "woof";
-    return 0;
+  std::cout << "woof";
+  return 0;
 }
